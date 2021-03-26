@@ -9,3 +9,6 @@ Serveur :
 1. `npm i`
 2. Run redis server
 3. `node server.js`
+
+
+Code source : https://github.com/Applelo/Socket.io-Room-Chat
