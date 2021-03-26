@@ -1,31 +1,11 @@
-# Socket.io-Room-Chat
+# Projet chat app
 
-Made to "Projet Tuteuré" in LP IRM.
+## Utilisation
+Client :
+1. `npm i`
+2. `ionic server`
 
-Ionic App Chat app with rooms work thanks to websocket server in Node JS and Socket.io.
-
-
-## How to use it
-
-### Server
-
-1. Do the `npm i` command to install project dependencies.
-2. Launch websocket server with `npm run start` command.
-3. The server will be available to localhost:3000 (yourip:3000)
-
-### Ionic Application
-
-1. Do the `npm i` to install project dependencies.
-2. Use `ionic serve --lab` to test magic of websocket
-3. Modify the socket adress server in SocketIoConfig in [client/src/app/app.module.ts](client/src/app/app.module.ts) file
-3. And use `ionic cordova run android` or `ionic cordova run ios` to test on your mobile.
-
-## Librairies
-
-* Ionic
-* NodeJS
-* Socket.io
-* ng-socket-io
-
-
-
+Serveur :
+1. `npm i`
+2. Run redis server
+3. `node server.js`
